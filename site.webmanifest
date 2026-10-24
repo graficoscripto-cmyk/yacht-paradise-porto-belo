@@ -1,0 +1,16 @@
+{
+  "name": "Yacht Paradise | Aluguel de Lanchas e Jet Ski em Porto Belo & Caixa d'Aço",
+  "short_name": "Yacht Paradise",
+  "description": "Passeios de lancha privativos, iates e jet-ski no Caixa d'Aço, Porto Belo, Bombinhas e Balneário Camboriú.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#02101C",
+  "theme_color": "#00E5FF",
+  "icons": [
+    {
+      "src": "img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

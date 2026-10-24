@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#05233E"/>
+      <stop offset="100%" stop-color="#02101E"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#bg)" stroke="url(#gold)" stroke-width="4.5"/>
+  <!-- Sleek Yacht Silhouette -->
+  <path d="M22 68L48 48H78L98 68H22Z" fill="url(#gold)"/>
+  <path d="M44 48L56 34H74L68 48H44Z" fill="#FFFFFF"/>
+  <path d="M18 76C34 72 46 80 62 76C78 72 88 80 102 76" stroke="#00E5FF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M26 86C40 82 52 90 66 86C80 82 88 90 96 86" stroke="#38BDF8" stroke-opacity="0.6" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,650 +1,551 @@
 <!DOCTYPE html>
-<html lang="pt-BR" class="scroll-smooth">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Yacht Paradise | Aluguel de Lanchas, Iates e Jet Ski em Porto Belo, Caixa d'Aço e Balneário Camboriú</title>
-  <meta name="description" content="★ 5,0 no Google (20 avaliações)! Aluguel de lanchas privativas, iates de luxo e jet-ski no Caixa d'Aço, Porto Belo, Bombinhas, Itapema e Balneário Camboriú (SC). Reserve pelo WhatsApp (47) 99159-8787.">
-  <meta name="keywords" content="aluguel de lancha porto belo, passeio de lancha caixa daco, yacht paradise porto belo, aluguel de iate balneario camboriu, aluguel de jet ski porto belo, lancha itapema bombinhas">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="author" content="Yacht Paradise - Aluguel de Lanchas e Jet Ski">
-  <meta name="geo.region" content="BR-SC">
-  <meta name="geo.placename" content="Porto Belo - SC">
-  <meta name="geo.position" content="-27.1456;-48.5432">
-  <meta name="ICBM" content="-27.1456, -48.5432">
+  <title>Yacht Paradise | Lanchas, Iates e Jet Ski em Porto Belo e Caixa d'Aço</title>
+  <meta name="description" content="★ 5,0 no Google (20 avaliações)! Aluguel de lanchas, iates e jet-ski no Caixa d'Aço, Porto Belo, Bombinhas e Balneário Camboriú. WhatsApp (47) 99159-8787.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://yacht-paradise-porto-belo.vercel.app/">
-
   <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
   <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#02101C">
+  <meta name="theme-color" content="#050F3A">
 
-  <!-- Open Graph / WhatsApp Preview -->
+  <!-- Open Graph / WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:site_name" content="Yacht Paradise">
-  <meta property="og:title" content="Yacht Paradise | Lanchas, Iates & Jet Ski no Caixa d'Aço e Porto Belo">
-  <meta property="og:description" content="Nota 5,0 ★ no Google! Iates Flybridge, lanchas esportivas e combos com Jet Ski em Porto Belo, Caixa d'Aço, Bombinhas e Balneário Camboriú.">
+  <meta property="og:title" content="Yacht Paradise | Lanchas, Iates & Jet Ski no Caixa d'Aço">
+  <meta property="og:description" content="Nota 5,0 ★ no Google! Lanchas, iates e Jet Ski em Porto Belo, Caixa d'Aço, Bombinhas e BC.">
   <meta property="og:url" content="https://yacht-paradise-porto-belo.vercel.app/">
-  <meta property="og:image" content="https://yacht-paradise-porto-belo.vercel.app/img/og-yacht-1200x630.jpg">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
+  <meta property="og:image" content="https://yacht-paradise-porto-belo.vercel.app/img/drone-lanchas.jpg">
 
-  <!-- Preload Hero 4K -->
-  <link rel="preload" as="image" href="img/hero-yacht-4k.webp" type="image/webp" media="(min-width: 769px)" fetchpriority="high">
-  <link rel="preload" as="image" href="img/hero-yacht-mobile.webp" type="image/webp" media="(max-width: 768px)" fetchpriority="high">
+  <!-- Preload Hero -->
+  <link rel="preload" as="image" href="img/drone-lanchas.webp" type="image/webp" media="(max-width: 959px)" fetchpriority="high">
+  <link rel="preload" as="image" href="img/lancha-praia.webp" type="image/webp" media="(min-width: 960px)" fetchpriority="high">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Schema.org JSON-LD (@graph SEO + GEO) -->
+  <!-- Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": ["LocalBusiness", "TravelAgency", "TouristAttraction", "BoatTrip"],
-        "@id": "https://yacht-paradise-porto-belo.vercel.app/#business",
-        "name": "Yacht Paradise - Aluguel de Lanchas e Jet Ski",
-        "description": "Referência em aluguel de lanchas, iates e jet-ski em Porto Belo (Araçá / Caixa d'Aço), Bombinhas, Itapema e Balneário Camboriú - SC.",
-        "url": "https://yacht-paradise-porto-belo.vercel.app/",
-        "telephone": "+55-47-99159-8787",
-        "image": [
-          "https://yacht-paradise-porto-belo.vercel.app/img/og-yacht-1200x630.jpg",
-          "https://yacht-paradise-porto-belo.vercel.app/img/hero-yacht-4k.jpg"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Rua Antônio José de Aquino - Araçá",
-          "addressLocality": "Porto Belo",
-          "addressRegion": "SC",
-          "postalCode": "88210-000",
-          "addressCountry": "BR"
-        },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "5.0",
-          "bestRating": "5",
-          "worstRating": "1",
-          "ratingCount": "20",
-          "reviewCount": "20"
-        },
-        "sameAs": [
-          "https://www.google.com/maps/place/?q=place_id:ChIJC_5njZql2JQR0kJfeDkaCzI"
-        ]
-      }
-    ]
+    "@type": ["LocalBusiness", "BoatTrip"],
+    "name": "Yacht Paradise - Aluguel de Lanchas e Jet Ski",
+    "url": "https://yacht-paradise-porto-belo.vercel.app/",
+    "telephone": "+55-47-99159-8787",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Antônio José de Aquino - Araçá",
+      "addressLocality": "Porto Belo",
+      "addressRegion": "SC",
+      "postalCode": "88210-000",
+      "addressCountry": "BR"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "bestRating": "5",
+      "ratingCount": "20"
+    }
   }
   </script>
 
   <style>
     :root {
-      --bg-abyss: #02101C;
-      --bg-navy: #041D33;
-      --cyan: #00E5FF;
-      --gold: #FBBF24;
-      --emerald: #10B981;
-      --whatsapp: #22C55E;
-      --text-white: #F8FAFC;
-      --text-light: #CBD5E1;
-      --text-muted: #94A3B8;
-      --font-display: 'Bricolage Grotesque', sans-serif;
-      --font-serif: 'Instrument Serif', serif;
-      --font-sans: 'Plus Jakarta Sans', sans-serif;
-      --font-mono: 'JetBrains Mono', monospace;
+      --navy: #0A2A8C;
+      --navy-deep: #061748;
+      --abyss: #040C28;
+      --sky: #2BA8E6;
+      --sky-soft: #7FD3F5;
+      --gold: #F6B70C;
+      --wa: #1FA855;
+      --wa-dark: #178F47;
+      --ease: cubic-bezier(0.23, 1, 0.32, 1);
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; background: var(--bg-abyss); color: var(--text-white); font-family: var(--font-sans); overflow-x: hidden; }
+    html { scroll-behavior: smooth; background: var(--abyss); color: #fff; }
     body {
-      background:
-        radial-gradient(circle at 18% 12%, rgba(0, 229, 255, 0.12), transparent 38%),
-        radial-gradient(circle at 82% 28%, rgba(251, 191, 36, 0.08), transparent 40%),
-        linear-gradient(180deg, #02101C 0%, #041B30 50%, #020E1A 100%);
-      color: var(--text-white);
-      line-height: 1.6;
-      overflow-x: hidden;
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background: var(--abyss);
+      color: #fff;
+      line-height: 1.5;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
-    img { max-width: 100%; display: block; }
+    img { display: block; max-width: 100%; height: auto; }
+    picture { display: block; width: 100%; height: 100%; }
     a { color: inherit; text-decoration: none; }
-    .container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 1.25rem; }
+    button { font: inherit; background: none; border: 0; cursor: pointer; color: inherit; }
+    h1, h2, h3 { font-family: 'Bricolage Grotesque', system-ui, sans-serif; line-height: 1.06; letter-spacing: -0.025em; }
+    .serif { font-family: 'Instrument Serif', Georgia, serif; font-style: italic; font-weight: 400; color: var(--sky-soft); }
+    .wrap { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 18px; }
 
-    .photo-text-shadow {
-      text-shadow:
-        0 2px 4px rgba(0, 0, 0, 0.95),
-        0 6px 22px rgba(0, 0, 0, 0.9),
-        0 14px 40px rgba(2, 16, 28, 0.95);
-    }
-
-    .double-bezel {
-      background: linear-gradient(145deg, rgba(0, 229, 255, 0.24), rgba(251, 191, 36, 0.14) 55%, rgba(16, 185, 129, 0.18));
-      padding: 1.5px;
-      border-radius: 26px;
-      box-shadow: 0 22px 50px -12px rgba(0, 0, 0, 0.65);
-      transition: transform 0.35s ease, box-shadow 0.35s ease;
-    }
-    .double-bezel:hover { transform: translateY(-4px); box-shadow: 0 28px 60px -12px rgba(0, 229, 255, 0.22); }
-    .double-bezel-inner {
-      background: linear-gradient(165deg, rgba(6, 29, 51, 0.96) 0%, rgba(3, 17, 31, 0.98) 100%);
-      border-radius: 24.5px;
-      height: 100%;
-      overflow: hidden;
-      position: relative;
+    /* Sombra forte para leitura limpa sobre foto */
+    .t-shadow {
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9), 0 8px 26px rgba(4, 12, 40, 0.95);
     }
 
-    /* Navbar */
-    .navbar-wrap { position: fixed; top: 1rem; left: 0; right: 0; z-index: 100; padding: 0 1rem; pointer-events: none; }
-    .navbar {
-      pointer-events: auto; max-width: 1220px; margin: 0 auto;
-      background: rgba(3, 19, 35, 0.84); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
-      border: 1px solid rgba(0, 229, 255, 0.28); border-radius: 999px;
-      padding: 0.55rem 0.85rem 0.55rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem;
-      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.55);
+    /* Botões */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      min-height: 50px; padding: 12px 22px; border-radius: 999px;
+      font-weight: 700; font-size: 15.5px; transition: transform 180ms var(--ease), background 180ms var(--ease);
     }
-    .brand { display: flex; align-items: center; gap: 0.75rem; }
-    .brand-logo {
-      width: 44px; height: 44px; border-radius: 50%; overflow: hidden;
-      border: 2px solid var(--cyan); background: #031B33; flex-shrink: 0;
-    }
-    .brand-name { font-family: var(--font-display); font-weight: 800; font-size: 1.05rem; letter-spacing: -0.02em; color: #FFF; }
-    .brand-sub { font-family: var(--font-mono); font-size: 0.68rem; color: var(--gold); letter-spacing: 0.08em; text-transform: uppercase; display: block; }
-    .nav-links { display: flex; align-items: center; gap: 1.5rem; font-size: 0.9rem; font-weight: 600; color: #E2E8F0; }
-    .nav-links a:hover { color: var(--cyan); }
-    .btn-nav-wa {
-      display: inline-flex; align-items: center; gap: 0.5rem;
-      background: linear-gradient(135deg, #00E5FF 0%, #00B4D8 100%); color: #02101C;
-      font-weight: 800; font-size: 0.86rem; padding: 0.65rem 1.2rem; border-radius: 999px;
-      box-shadow: 0 8px 22px rgba(0, 229, 255, 0.35); white-space: nowrap;
+    .btn:active { transform: scale(0.97); }
+    .btn-wa { background: var(--wa); color: #fff; box-shadow: 0 12px 28px -10px rgba(31, 168, 85, 0.75); }
+    .btn-wa:hover { background: var(--wa-dark); }
+    .btn-glass {
+      background: rgba(255, 255, 255, 0.12); color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.28);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
     }
 
-    /* Hero 4K */
+    /* Navbar fina que some ao rolar para baixo */
+    .nav-wrap {
+      position: fixed;
+      top: max(10px, env(safe-area-inset-top));
+      left: 0; right: 0; z-index: 90;
+      padding: 0 12px;
+      pointer-events: none;
+      transition: transform 280ms var(--ease), opacity 240ms var(--ease);
+    }
+    .nav-wrap.nav-hidden {
+      transform: translateY(-150%);
+      opacity: 0;
+    }
+    .nav {
+      pointer-events: auto;
+      max-width: 1100px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      padding: 5px 7px 5px 9px;
+      border-radius: 999px;
+      background: rgba(4, 12, 40, 0.72);
+      backdrop-filter: blur(16px) saturate(160%);
+      -webkit-backdrop-filter: blur(16px) saturate(160%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 10px 26px -10px rgba(0, 0, 0, 0.55);
+    }
+    .nav-hidden .nav { pointer-events: none; }
+    .brand { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
+    .brand img { width: 32px; height: 32px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
+    .brand b {
+      font-family: 'Bricolage Grotesque', sans-serif;
+      font-size: 14.5px; font-weight: 800; letter-spacing: -0.02em;
+      white-space: nowrap;
+    }
+    .brand small { display: none; font-size: 11px; color: rgba(255, 255, 255, 0.7); margin-left: 6px; white-space: nowrap; }
+    .nav-links { display: none; gap: 24px; font-size: 14px; font-weight: 600; color: rgba(255, 255, 255, 0.88); }
+    .nav .btn { min-height: 34px; padding: 6px 14px; font-size: 13px; white-space: nowrap; }
+    @media (min-width: 960px) {
+      .nav-links { display: flex; }
+      .brand small { display: inline; }
+    }
+
+    /* Hero: mesma foto e proporção limpa da Águas Claras */
     .hero {
-      position: relative; min-height: 100vh; min-height: 100svh;
-      display: flex; align-items: flex-end; padding: 8.5rem 0 3.5rem; overflow: hidden;
+      position: relative;
+      min-height: 100svh;
+      display: flex;
+      align-items: flex-end;
+      padding: 80px 0 32px;
+      overflow: hidden;
+      background: var(--abyss);
     }
-    .hero-media { position: absolute; inset: 0; z-index: 0; }
-    .hero-media picture, .hero-media img {
-      width: 100%; height: 100%; object-fit: cover; object-position: center 45%;
+    .hero-bg {
+      position: absolute;
+      left: 0; right: 0; top: 0;
+      height: 66svh;
+      overflow: hidden;
     }
-    .hero-overlay {
-      position: absolute; inset: 0; z-index: 1;
-      background:
-        linear-gradient(180deg, rgba(2, 16, 28, 0.48) 0%, rgba(2, 16, 28, 0.05) 35%, rgba(2, 16, 28, 0.55) 66%, rgba(2, 16, 28, 0.96) 100%),
-        radial-gradient(circle at 22% 78%, rgba(2, 16, 28, 0.78) 0%, transparent 62%);
+    .hero-bg img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: 50% 35%;
+      transform: scale(1.06);
+    }
+    .hero-bg::after {
+      content: "";
+      position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(4, 12, 40, 0.35) 0%, rgba(4, 12, 40, 0) 22%, rgba(4, 12, 40, 0) 58%, rgba(4, 12, 40, 0.88) 88%, var(--abyss) 100%);
     }
     .hero-content { position: relative; z-index: 2; width: 100%; }
-    .hero-grid { display: grid; grid-template-columns: 1.28fr 0.72fr; gap: 2rem; align-items: end; }
-    .hero-badges { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1.1rem; }
-    .pill-badge {
-      display: inline-flex; align-items: center; gap: 0.45rem;
-      background: rgba(2, 16, 28, 0.84); backdrop-filter: blur(12px);
-      border: 1px solid rgba(0, 229, 255, 0.42); padding: 0.42rem 0.9rem; border-radius: 999px;
-      font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; color: #FFF;
+    .rating-pill {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 6px 13px; border-radius: 999px;
+      background: rgba(4, 12, 40, 0.68);
+      border: 1px solid rgba(255, 255, 255, 0.24);
+      backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+      font-size: 12.5px; font-weight: 700;
     }
-    .pill-badge.gold { border-color: rgba(251, 191, 36, 0.6); color: #FDE68A; }
-    .hero-title {
-      font-family: var(--font-display); font-size: clamp(2.35rem, 5vw, 4.35rem);
-      font-weight: 800; line-height: 1.04; letter-spacing: -0.03em; margin-bottom: 1rem; color: #FFF;
+    .stars { color: var(--gold); letter-spacing: 1px; }
+    .hero h1 {
+      font-size: clamp(34px, 9.5vw, 66px);
+      margin: 12px 0 8px;
+      text-wrap: balance;
     }
-    .hero-title em { font-family: var(--font-serif); font-style: italic; font-weight: 400; color: var(--cyan); padding-right: 0.1em; }
-    .hero-lead { font-size: clamp(1.02rem, 1.4vw, 1.2rem); color: #F1F5F9; max-width: 620px; margin-bottom: 1.65rem; font-weight: 500; }
-    .hero-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; align-items: center; }
-    .btn-primary {
-      display: inline-flex; align-items: center; justify-content: center; gap: 0.65rem;
-      background: linear-gradient(135deg, #22C55E 0%, #16A34A 100%); color: #FFF;
-      font-family: var(--font-display); font-weight: 800; font-size: 1.02rem;
-      padding: 1rem 1.75rem; border-radius: 999px; box-shadow: 0 14px 34px rgba(34, 197, 94, 0.42);
-      border: 1px solid rgba(255, 255, 255, 0.25); cursor: pointer; transition: transform 0.25s ease;
+    .hero-lead {
+      font-size: clamp(15px, 3.8vw, 18px);
+      color: rgba(255, 255, 255, 0.86);
+      max-width: 28em;
+      margin-bottom: 20px;
     }
-    .btn-primary:hover { transform: translateY(-3px); }
-    .btn-secondary {
-      display: inline-flex; align-items: center; justify-content: center; gap: 0.55rem;
-      background: rgba(3, 22, 42, 0.84); backdrop-filter: blur(14px); color: #FFF;
-      font-weight: 700; font-size: 0.96rem; padding: 1rem 1.55rem; border-radius: 999px;
-      border: 1px solid rgba(0, 229, 255, 0.42);
-    }
-    .hero-card {
-      background: rgba(3, 21, 39, 0.86); backdrop-filter: blur(18px);
-      border: 1px solid rgba(0, 229, 255, 0.35); border-radius: 24px; padding: 1.4rem;
-      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.65);
-    }
-    .hero-stats-grid {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.6rem;
-      padding-top: 0.9rem; margin-top: 0.9rem; border-top: 1px solid rgba(255, 255, 255, 0.1); text-align: center;
-    }
-    .stat-num { font-family: var(--font-display); font-weight: 800; font-size: 1.25rem; color: var(--cyan); }
-    .stat-lbl { font-size: 0.72rem; color: #CBD5E1; }
+    .hero-ctas { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 440px; }
+    .hero-card { display: none; }
 
-    section { padding: 5.2rem 0; position: relative; }
-    .section-eyebrow {
-      display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--font-mono);
-      font-size: 0.76rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
-      color: var(--cyan); background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.28);
-      padding: 0.38rem 0.9rem; border-radius: 999px; margin-bottom: 0.9rem;
-    }
-    .section-title { font-family: var(--font-display); font-size: clamp(1.9rem, 3.6vw, 3rem); font-weight: 800; line-height: 1.1; margin-bottom: 0.75rem; }
-    .section-title em { font-family: var(--font-serif); font-style: italic; font-weight: 400; color: var(--cyan); }
-    .section-desc { color: var(--text-light); font-size: 1.04rem; max-width: 640px; }
-
-    /* Fleet Grid */
-    .fleet-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; }
-    .fleet-photo { position: relative; height: 270px; overflow: hidden; }
-    .fleet-photo img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
-    .double-bezel:hover .fleet-photo img { transform: scale(1.05); }
-    .fleet-tag {
-      position: absolute; top: 0.9rem; left: 0.9rem;
-      background: rgba(2, 16, 28, 0.86); backdrop-filter: blur(10px);
-      border: 1px solid rgba(0, 229, 255, 0.45); color: var(--cyan);
-      font-family: var(--font-mono); font-size: 0.72rem; font-weight: 700; padding: 0.3rem 0.75rem; border-radius: 999px;
-    }
-    .fleet-body { padding: 1.4rem; }
-    .fleet-title { font-family: var(--font-display); font-size: 1.32rem; font-weight: 800; margin-bottom: 0.4rem; }
-    .fleet-copy { color: var(--text-light); font-size: 0.9rem; margin-bottom: 1rem; }
-    .spec-chip {
-      display: inline-block; font-size: 0.76rem; font-weight: 600;
-      background: rgba(0, 229, 255, 0.09); border: 1px solid rgba(0, 229, 255, 0.22);
-      color: #E2E8F0; padding: 0.28rem 0.65rem; border-radius: 999px; margin: 0 0.35rem 0.4rem 0;
-    }
-    .btn-card-wa {
-      width: 100%; display: inline-flex; align-items: center; justify-content: center;
-      background: linear-gradient(135deg, rgba(0, 229, 255, 0.18), rgba(16, 185, 129, 0.22));
-      border: 1px solid rgba(0, 229, 255, 0.45); color: #FFF; font-weight: 700; font-size: 0.9rem;
-      padding: 0.8rem 1rem; border-radius: 14px; margin-top: 0.6rem; transition: all 0.25s ease;
-    }
-    .btn-card-wa:hover { background: linear-gradient(135deg, #00E5FF, #10B981); color: #02101C; font-weight: 800; }
-
-    /* Bento Gallery */
-    .bento-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 2.25rem; }
-    .bento-item { position: relative; border-radius: 22px; overflow: hidden; height: 280px; border: 1px solid rgba(0, 229, 255, 0.25); }
-    .bento-item img { width: 100%; height: 100%; object-fit: cover; }
-    .bento-cap {
-      position: absolute; inset: auto 0 0 0; padding: 1.1rem;
-      background: linear-gradient(180deg, transparent 0%, rgba(2, 16, 28, 0.95) 100%);
+    @media (min-width: 960px) {
+      .hero {
+        min-height: 0; display: block; padding: 140px 0 100px;
+        background: radial-gradient(900px 520px at 80% 0%, #123FB8 0%, transparent 60%), linear-gradient(165deg, var(--navy-deep) 0%, var(--abyss) 75%);
+      }
+      .hero-bg { display: none; }
+      .hero-content { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 56px; align-items: center; }
+      .hero-card { display: block; position: relative; }
+      .hero-photo { border-radius: 28px; overflow: hidden; aspect-ratio: 4 / 4.4; border: 5px solid rgba(255, 255, 255, 0.12); box-shadow: 0 26px 60px -20px rgba(0, 0, 0, 0.7); }
+      .hero-photo img { width: 100%; height: 100%; object-fit: cover; }
     }
 
-    /* Planner */
-    .planner-box { padding: 2.2rem; }
-    .planner-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 2rem; margin-top: 1.5rem; }
-    .planner-label { display: block; font-family: var(--font-mono); font-size: 0.76rem; text-transform: uppercase; color: var(--cyan); margin: 0.9rem 0 0.5rem; font-weight: 700; }
-    .chip-group { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .choice-chip {
-      background: rgba(4, 24, 44, 0.9); border: 1px solid rgba(0, 229, 255, 0.25); color: #E2E8F0;
-      padding: 0.58rem 0.95rem; border-radius: 12px; font-size: 0.85rem; font-weight: 600; cursor: pointer;
-    }
-    .choice-chip.selected, .choice-chip:hover { background: rgba(0, 229, 255, 0.22); border-color: var(--cyan); color: #FFF; }
-    .input-field {
-      width: 100%; background: rgba(3, 18, 34, 0.95); border: 1px solid rgba(0, 229, 255, 0.28);
-      border-radius: 12px; padding: 0.78rem 0.95rem; color: #FFF; font-family: var(--font-sans); font-size: 0.92rem;
-    }
-    .planner-summary {
-      background: linear-gradient(160deg, rgba(4, 27, 49, 0.95), rgba(2, 14, 26, 0.98));
-      border: 1px solid rgba(0, 229, 255, 0.35); border-radius: 20px; padding: 1.6rem;
-      display: flex; flex-direction: column; justify-content: space-between;
-    }
-    .summary-list { list-style: none; display: flex; flex-direction: column; gap: 0.7rem; margin: 1rem 0 1.5rem; font-size: 0.9rem; }
-    .summary-list li { display: flex; justify-content: space-between; border-bottom: 1px dashed rgba(255, 255, 255, 0.12); padding-bottom: 0.45rem; }
+    /* Seções enxutas com destaque total nas fotos */
+    section { padding: 56px 0; }
+    .sec-head { margin-bottom: 22px; }
+    .kicker { font-size: 11px; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sky-soft); display: block; margin-bottom: 6px; }
+    .sec-head h2 { font-size: clamp(26px, 6.8vw, 44px); }
 
-    /* Reviews */
-    .reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.25rem; }
-    .review-card { padding: 1.6rem; display: flex; flex-direction: column; justify-content: space-between; }
-    .stars { color: var(--gold); font-size: 1rem; margin-bottom: 0.7rem; }
+    /* Cards de Frota com imagem grande e texto de 1 linha */
+    .photo-grid { display: grid; gap: 16px; }
+    @media (min-width: 768px) { .photo-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
 
-    footer { border-top: 1px solid rgba(0, 229, 255, 0.2); padding: 3.5rem 0 5.5rem; background: #010911; }
-    .float-wa {
-      position: fixed; bottom: 1.25rem; right: 1.25rem; z-index: 99;
-      display: inline-flex; align-items: center; gap: 0.6rem;
-      background: linear-gradient(135deg, #22C55E 0%, #15803D 100%); color: #FFF;
-      font-weight: 800; font-size: 0.92rem; padding: 0.85rem 1.3rem; border-radius: 999px;
-      box-shadow: 0 14px 32px rgba(34, 197, 94, 0.5);
+    .photo-card {
+      position: relative;
+      border-radius: 24px;
+      overflow: hidden;
+      aspect-ratio: 4 / 4.6;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      background: #07163B;
+    }
+    .photo-card img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s var(--ease);
+    }
+    .photo-card:hover img { transform: scale(1.04); }
+    .photo-card::after {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(4, 12, 40, 0.15) 0%, transparent 45%, rgba(4, 12, 40, 0.94) 100%);
+    }
+    .photo-tag {
+      position: absolute; top: 12px; left: 12px; z-index: 2;
+      padding: 5px 11px; border-radius: 999px;
+      background: rgba(4, 12, 40, 0.75); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      font-size: 11px; font-weight: 700; color: var(--sky-soft);
+    }
+    .photo-info {
+      position: absolute; left: 16px; right: 16px; bottom: 16px; z-index: 2;
+    }
+    .photo-info h3 { font-size: 22px; margin-bottom: 4px; }
+    .photo-info p { font-size: 13.5px; color: rgba(255, 255, 255, 0.82); margin-bottom: 10px; }
+    .photo-info .btn { width: 100%; min-height: 42px; padding: 9px 14px; font-size: 14px; }
+
+    /* Simulador enxuto */
+    .planner {
+      border-radius: 26px;
+      background: linear-gradient(165deg, #091E58 0%, #051136 100%);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      padding: 24px 18px;
+    }
+    @media (min-width: 768px) { .planner { padding: 34px; } }
+    .p-step { margin-top: 14px; }
+    .p-label { display: block; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--sky-soft); margin-bottom: 8px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+    .chip {
+      padding: 10px 14px; border-radius: 14px;
+      background: rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      font-size: 13.5px; font-weight: 700; color: rgba(255, 255, 255, 0.88);
+    }
+    .chip.active {
+      background: var(--sky); color: #040C28; border-color: var(--sky);
     }
 
-    @media (max-width: 960px) {
-      .nav-links { display: none; }
-      .hero-grid, .fleet-grid, .bento-grid, .planner-grid, .reviews-grid { grid-template-columns: 1fr; }
-      .hero { padding-top: 6.5rem; }
+    /* Avaliações compactas */
+    .rev-grid { display: grid; gap: 12px; }
+    @media (min-width: 768px) { .rev-grid { grid-template-columns: repeat(3, 1fr); } }
+    .rev-card {
+      padding: 18px; border-radius: 20px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.12);
     }
+    .rev-card p { font-size: 14px; color: rgba(255, 255, 255, 0.88); margin: 6px 0 10px; }
+    .rev-card b { font-size: 13px; color: var(--sky-soft); }
+
+    footer {
+      padding: 32px 0 88px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 13px; color: rgba(255, 255, 255, 0.65);
+    }
+
+    /* Botão do WhatsApp redondo no canto inferior direito */
+    .wa-round {
+      position: fixed;
+      right: 16px;
+      bottom: max(16px, env(safe-area-inset-bottom));
+      z-index: 95;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--wa);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 12px 28px rgba(31, 168, 85, 0.65);
+      border: 2px solid rgba(255, 255, 255, 0.28);
+      transition: transform 180ms var(--ease);
+    }
+    .wa-round:hover { transform: scale(1.06); }
+    .wa-round svg { width: 28px; height: 28px; fill: currentColor; }
   </style>
 </head>
 <body>
 
-  <!-- Floating Glass Navbar -->
-  <div class="navbar-wrap">
-    <nav class="navbar">
+  <!-- Card do topo fino que some ao arrastar para baixo -->
+  <header class="nav-wrap" id="topNav">
+    <nav class="nav" aria-label="Navegação principal">
       <a href="#topo" class="brand">
-        <div class="brand-logo">
-          <img src="img/favicon.svg" alt="Logo Yacht Paradise" width="44" height="44">
-        </div>
-        <div>
-          <span class="brand-name">Yacht Paradise</span>
-          <span class="brand-sub">Lanchas, Iates & Jet Ski · SC</span>
-        </div>
+        <img src="img/favicon.svg" alt="Yacht Paradise" width="32" height="32">
+        <b>Yacht Paradise</b>
+        <small>Porto Belo · Caixa d'Aço</small>
       </a>
       <div class="nav-links">
-        <a href="#frota">Frota & Jet Ski</a>
-        <a href="#roteiros">Caixa d'Aço & Roteiros</a>
-        <a href="#simulador">Monte seu Passeio</a>
-        <a href="#avaliacoes">Avaliações 5,0★</a>
+        <a href="#frota">Lanchas & Jet</a>
+        <a href="#roteiros">Destinos</a>
+        <a href="#reservar">Reservar</a>
       </div>
-      <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Yacht%20Paradise%20e%20gostaria%20de%20consultar%20disponibilidade%20de%20lancha/jet%20ski." target="_blank" rel="noopener" class="btn-nav-wa">
-        Reservar no WhatsApp
-      </a>
+      <a class="btn btn-wa" href="#reservar">Reservar</a>
     </nav>
-  </div>
-
-  <!-- HERO 4K COM A PRIMEIRA FOTO DO MEGA IATE QUEEN -->
-  <header id="topo" class="hero">
-    <div class="hero-media">
-      <picture>
-        <source media="(max-width: 768px)" srcset="img/hero-yacht-mobile.webp" type="image/webp">
-        <source media="(min-width: 769px)" srcset="img/hero-yacht-4k.webp" type="image/webp">
-        <img src="img/hero-yacht-4k.jpg" alt="Mega Iate Flybridge da Yacht Paradise nas águas verde-esmeralda de Porto Belo e Caixa d'Aço" width="1920" height="1080" fetchpriority="high">
-      </picture>
-      <div class="hero-overlay"></div>
-    </div>
-
-    <div class="container hero-content">
-      <div class="hero-grid">
-        <div>
-          <div class="hero-badges">
-            <span class="pill-badge gold">★ 5,0 NO GOOGLE (20 AVALIAÇÕES)</span>
-            <span class="pill-badge">🛥️ LANCHAS, IATES & JET SKI</span>
-            <span class="pill-badge">📍 PORTO BELO · CAIXA D'AÇO · BC</span>
-          </div>
-          <h1 class="hero-title photo-text-shadow">
-            Viva um Dia Inesquecível no Mar com a <em>Yacht Paradise.</em>
-          </h1>
-          <p class="hero-lead photo-text-shadow">
-            Referência em aluguel de lanchas, iates Flybridge e combos com Jet Ski no Caixa d'Aço, Porto Belo, Bombinhas, Itapema e Balneário Camboriú.
-          </p>
-          <div class="hero-actions">
-            <a href="#simulador" class="btn-primary">Montar Meu Passeio Agora</a>
-            <a href="#frota" class="btn-secondary">Ver Lanchas, Iates & Jet Ski</a>
-          </div>
-        </div>
-
-        <aside class="hero-card">
-          <div style="font-family:var(--font-mono); font-size:0.74rem; color:var(--gold); font-weight:700; text-transform:uppercase;">Referência Náutica na Costa Esmeralda</div>
-          <h2 style="font-family:var(--font-display); font-size:1.35rem; font-weight:800; margin:0.25rem 0 0.5rem;">Yacht Paradise Charter</h2>
-          <p style="font-size:0.88rem; color:#E2E8F0;">
-            "Que dia para estar vivo! Quando se fala de Lanchas, Iates e Jet Ski em Porto Belo e Caixa d'Aço, nós somos a referência."
-          </p>
-          <div class="hero-stats-grid">
-            <div>
-              <div class="stat-num">5,0 ★</div>
-              <div class="stat-lbl">20 Avaliações</div>
-            </div>
-            <div>
-              <div class="stat-num">Iates & Jet</div>
-              <div class="stat-lbl">Frota Completa</div>
-            </div>
-            <div>
-              <div class="stat-num">100% VIP</div>
-              <div class="stat-lbl">Marinheiro Incluso</div>
-            </div>
-          </div>
-        </aside>
-      </div>
-    </div>
   </header>
 
-  <!-- FROTA & EXPERIÊNCIAS -->
-  <section id="frota">
-    <div class="container">
-      <span class="section-eyebrow">🛥️ Frota Premium & Esportes Náuticos</span>
-      <h2 class="section-title">Lanchas, Iates Flybridge e <em>Jet Ski Sea-Doo</em></h2>
-      <p class="section-desc">
-        Embarcações impecáveis equipadas com churrasqueira gourmet na plataforma de popa, som potente, cabines climatizadas e opções de Jet Ski.
-      </p>
-
-      <div class="fleet-grid">
-        <article class="double-bezel">
-          <div class="double-bezel-inner">
-            <div class="fleet-photo">
-              <img src="img/iate-queen-flybridge.webp" alt="Iate Queen Flybridge da Yacht Paradise em Porto Belo" loading="lazy">
-              <span class="fleet-tag">DESTAQUE VIP · FLYBRIDGE</span>
-            </div>
-            <div class="fleet-body">
-              <h3 class="fleet-title">Mega Iates & Flybridge</h3>
-              <p class="fleet-copy">Dois andares de puro conforto, salão climatizado, amplo solário de proa e plataforma de popa para churrasco no Caixa d'Aço.</p>
-              <div>
-                <span class="spec-chip">✓ Flybridge Panorâmico</span>
-                <span class="spec-chip">✓ Churrasco na Popa</span>
-                <span class="spec-chip">✓ Marinheiro + Combustível</span>
-              </div>
-              <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Quero%20consultar%20disponibilidade%20de%20Iate%20Flybridge%20na%20Yacht%20Paradise." target="_blank" rel="noopener" class="btn-card-wa">
-                Consultar Disponibilidade →
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <article class="double-bezel">
-          <div class="double-bezel-inner">
-            <div class="fleet-photo">
-              <img src="img/lancha-flybridge-mar.webp" alt="Lanchas privativas navegando no Caixa d'Aço em Porto Belo" loading="lazy">
-              <span class="fleet-tag">PASSEIO PRIVATIVO · GRUPOS & FAMÍLIA</span>
-            </div>
-            <div class="fleet-body">
-              <h3 class="fleet-title">Lanchas Cabinadas 30 a 45 Pés</h3>
-              <p class="fleet-copy">Perfeitas para famílias, aniversários e despedidas de solteira rumo à Ilha de Porto Belo, Bombinhas e Itapema.</p>
-              <div>
-                <span class="spec-chip">✓ Cabine com Banheiro</span>
-                <span class="spec-chip">✓ Som Bluetooth + Cooler</span>
-                <span class="spec-chip">✓ Churrasqueira Inox</span>
-              </div>
-              <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Quero%20consultar%20disponibilidade%20de%20Lancha%20Privativa%20na%20Yacht%20Paradise." target="_blank" rel="noopener" class="btn-card-wa">
-                Consultar Disponibilidade →
-              </a>
-            </div>
-          </div>
-        </article>
-
-        <article class="double-bezel">
-          <div class="double-bezel-inner">
-            <div class="fleet-photo">
-              <img src="img/jetski-seadoo.webp" alt="Aluguel de Jet Ski Sea-Doo GTI na Yacht Paradise Porto Belo" loading="lazy">
-              <span class="fleet-tag">ADRENALINA · COMBO LANCHA + JET</span>
-            </div>
-            <div class="fleet-body">
-              <h3 class="fleet-title">Jet Ski Sea-Doo & Combos</h3>
-              <p class="fleet-copy">Locação de Jet Ski de última geração com som integrado ou combo completo Lancha + Jet Ski acompanhando seu passeio.</p>
-              <div>
-                <span class="spec-chip">✓ Sea-Doo GTI Novo</span>
-                <span class="spec-chip">✓ Atendimento Rápido</span>
-                <span class="spec-chip">✓ Combo Lancha + Jet</span>
-              </div>
-              <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Quero%20consultar%20loca%C3%A7%C3%A3o%20de%20Jet%20Ski%20ou%20Combo%20Lancha%20+%20Jet%20na%20Yacht%20Paradise." target="_blank" rel="noopener" class="btn-card-wa">
-                Consultar Jet Ski / Combo →
-              </a>
-            </div>
-          </div>
-        </article>
+  <main id="topo">
+    <!-- HERO LIMPO COM A FOTO DA ÁGUAS CLARAS -->
+    <section class="hero">
+      <div class="hero-bg">
+        <picture>
+          <source media="(max-width: 959px)" srcset="img/drone-lanchas.webp" type="image/webp">
+          <source media="(max-width: 959px)" srcset="img/drone-lanchas.jpg" type="image/jpeg">
+          <source srcset="img/lancha-praia.webp" type="image/webp">
+          <img src="img/lancha-praia.jpg" alt="Lanchas em águas verde-esmeralda" width="1200" height="1600" fetchpriority="high">
+        </picture>
       </div>
-    </div>
-  </section>
 
-  <!-- ROTEIROS & DESTINOS (CAIXA D'AÇO, PORTO BELO, BOMBINHAS, BC) -->
-  <section id="roteiros">
-    <div class="container">
-      <span class="section-eyebrow">🧭 O Paraíso Náutico de Santa Catarina</span>
-      <h2 class="section-title">Caixa d'Aço, Ilha de Porto Belo, Bombinhas & <em>Balneário Camboriú</em></h2>
-      <p class="section-desc">
-        Embarque rápido no Araçá (Porto Belo) a poucos minutos das enseadas mais famosas do Brasil.
-      </p>
-
-      <div class="bento-grid">
-        <div class="bento-item">
-          <img src="img/caixa-daco-aerea.webp" alt="Vista aérea da enseada do Caixa d'Aço em Porto Belo" loading="lazy">
-          <div class="bento-cap">
-            <h3 class="photo-text-shadow" style="font-family:var(--font-display); font-size:1.2rem;">Enseada do Caixa d'Aço</h3>
-            <p class="photo-text-shadow" style="font-size:0.84rem; color:#E2E8F0;">Águas calmas verde-esmeralda, bares flutuantes e encontro dos iates.</p>
+      <div class="wrap hero-content">
+        <div>
+          <!-- Apenas 1 badge acima do título -->
+          <span class="rating-pill"><span class="stars">★★★★★</span> 5,0 · 20 avaliações no Google</span>
+          <h1 class="t-shadow">O Caixa d'Aço que só se vive <span class="serif">de lancha.</span></h1>
+          <p class="hero-lead t-shadow">Lanchas, iates e Jet Ski privativos em Porto Belo, Bombinhas e BC.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-wa" href="#reservar">Montar passeio</a>
+            <a class="btn btn-glass" href="#frota">Ver frota</a>
           </div>
         </div>
 
-        <div class="bento-item">
-          <img src="img/churrasco-popa.webp" alt="Churrasco preparado na plataforma de popa do iate no Caixa d'Aço" loading="lazy">
-          <div class="bento-cap">
-            <h3 class="photo-text-shadow" style="font-family:var(--font-display); font-size:1.2rem;">Churrasco na Plataforma de Popa</h3>
-            <p class="photo-text-shadow" style="font-size:0.84rem; color:#E2E8F0;">Grelha acesa sobre o mar enquanto você aproveita com sua turma.</p>
-          </div>
-        </div>
-
-        <div class="bento-item">
-          <img src="img/festa-caixa-daco.webp" alt="Festa e lazer nos iates no Caixa d'Aço em Porto Belo" loading="lazy">
-          <div class="bento-cap">
-            <h3 class="photo-text-shadow" style="font-family:var(--font-display); font-size:1.2rem;">Bombinhas, Itapema & BC</h3>
-            <p class="photo-text-shadow" style="font-size:0.84rem; color:#E2E8F0;">Roteiros sob medida até Sepultura, Ilha de Porto Belo e orla de BC.</p>
+        <div class="hero-card">
+          <div class="hero-photo">
+            <picture><source srcset="img/lancha-praia.webp" type="image/webp"><img src="img/lancha-praia.jpg" alt="Passeio de lancha Yacht Paradise" width="1171" height="1352"></picture>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SIMULADOR INTERATIVO SEM PREÇO -->
-  <section id="simulador">
-    <div class="container">
-      <div class="double-bezel">
-        <div class="double-bezel-inner planner-box">
-          <span class="section-eyebrow">⚡ Cotação Rápida no WhatsApp</span>
-          <h2 class="section-title">Monte Seu Dia na <em>Yacht Paradise</em></h2>
-          <p class="section-desc">Escolha o tipo de experiência, o destino e envie direto para nossa equipe no WhatsApp.</p>
+    <!-- FROTA EM DESTAQUE VISUAL (TEXTOS CURTOS DE 1 LINHA) -->
+    <section id="frota">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">Nossa frota</span>
+          <h2>Escolha sua <span class="serif">embarcação.</span></h2>
+        </div>
 
-          <div class="planner-grid">
-            <div>
-              <label class="planner-label">1. O Que Você Deseja Alugar?</label>
-              <div class="chip-group" data-group="embarcacao">
-                <button type="button" class="choice-chip selected" data-val="Iate Flybridge VIP">Iate Flybridge VIP</button>
-                <button type="button" class="choice-chip" data-val="Lancha Privativa (30 a 45 pés)">Lancha Privativa</button>
-                <button type="button" class="choice-chip" data-val="Combo Lancha + Jet Ski">Combo Lancha + Jet Ski</button>
-                <button type="button" class="choice-chip" data-val="Locação de Jet Ski Sea-Doo">Locação de Jet Ski</button>
-              </div>
-
-              <label class="planner-label">2. Roteiro Desejado</label>
-              <div class="chip-group" data-group="roteiro">
-                <button type="button" class="choice-chip selected" data-val="Caixa d'Aço + Ilha de Porto Belo">Caixa d'Aço + Ilha de Porto Belo</button>
-                <button type="button" class="choice-chip" data-val="Caixa d'Aço + Praias de Bombinhas">Caixa d'Aço + Bombinhas</button>
-                <button type="button" class="choice-chip" data-val="Itapema + Balneário Camboriú">Itapema + Balneário Camboriú</button>
-              </div>
-
-              <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.9rem; margin-top:1rem;">
-                <div>
-                  <label class="planner-label" for="ypDate">3. Data ou Fim de Semana</label>
-                  <input type="text" id="ypDate" class="input-field" placeholder="Ex: Sábado / Dezembro / Verão">
-                </div>
-                <div>
-                  <label class="planner-label" for="ypGuests">4. Número de Pessoas</label>
-                  <input type="text" id="ypGuests" class="input-field" placeholder="Ex: 10 pessoas">
-                </div>
-              </div>
+        <div class="photo-grid">
+          <article class="photo-card">
+            <img src="img/iate-queen-flybridge.webp" alt="Mega Iate Flybridge em Porto Belo" loading="lazy">
+            <span class="photo-tag">VIP · 2 Andares</span>
+            <div class="photo-info">
+              <h3 class="t-shadow">Iates Flybridge</h3>
+              <p class="t-shadow">Salão climatizado, solário amplo e churrasco na popa.</p>
+              <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Quero%20consultar%20os%20Iates%20Flybridge%20da%20Yacht%20Paradise." target="_blank" rel="noopener" class="btn btn-wa">Consultar Iate</a>
             </div>
+          </article>
 
-            <div class="planner-summary">
-              <div>
-                <div style="font-family:var(--font-mono); font-size:0.75rem; color:var(--cyan); font-weight:700;">SEU PEDIDO PERSONALIZADO</div>
-                <h3 style="font-family:var(--font-display); font-size:1.4rem; margin-top:0.25rem;">Yacht Paradise · SC</h3>
-                <ul class="summary-list">
-                  <li><span style="color:var(--text-muted);">Modalidade:</span> <strong id="sumEmb">Iate Flybridge VIP</strong></li>
-                  <li><span style="color:var(--text-muted);">Roteiro:</span> <strong id="sumRot">Caixa d'Aço + Ilha de Porto Belo</strong></li>
-                  <li><span style="color:var(--text-muted);">Base:</span> <strong>Araçá / Caixa d'Aço · Porto Belo</strong></li>
-                </ul>
-              </div>
-              <button type="button" id="btnSendYp" class="btn-primary" style="width:100%;">
-                Receber Opções no WhatsApp (47) 99159-8787 →
-              </button>
+          <article class="photo-card">
+            <img src="img/lancha-flybridge-mar.webp" alt="Lanchas privativas no Caixa d'Aço" loading="lazy">
+            <span class="photo-tag">Família & Grupos</span>
+            <div class="photo-info">
+              <h3 class="t-shadow">Lanchas 30 a 45 Pés</h3>
+              <p class="t-shadow">Marinheiro incluso, som Bluetooth e churrasqueira.</p>
+              <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Quero%20consultar%20as%20Lanchas%20Privativas%20da%20Yacht%20Paradise." target="_blank" rel="noopener" class="btn btn-wa">Consultar Lancha</a>
             </div>
+          </article>
+
+          <article class="photo-card">
+            <img src="img/jetski-seadoo.webp" alt="Jet Ski Sea-Doo GTI em Porto Belo" loading="lazy">
+            <span class="photo-tag">Adrenalina</span>
+            <div class="photo-info">
+              <h3 class="t-shadow">Jet Ski & Combos</h3>
+              <p class="t-shadow">Aluguel de Sea-Doo GTI ou combo Lancha + Jet Ski.</p>
+              <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Quero%20consultar%20Jet%20Ski%20ou%20Combo%20na%20Yacht%20Paradise." target="_blank" rel="noopener" class="btn btn-wa">Consultar Jet Ski</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESTINOS EM DESTAQUE VISUAL -->
+    <section id="roteiros">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">Roteiros</span>
+          <h2>O melhor mar de <span class="serif">Santa Catarina.</span></h2>
+        </div>
+
+        <div class="photo-grid">
+          <article class="photo-card">
+            <img src="img/caixa-daco-aerea.webp" alt="Enseada do Caixa d'Aço em Porto Belo" loading="lazy">
+            <span class="photo-tag">Porto Belo</span>
+            <div class="photo-info">
+              <h3 class="t-shadow">Caixa d'Aço & Ilha</h3>
+              <p class="t-shadow">Águas calmas esmeraldas e bares flutuantes.</p>
+            </div>
+          </article>
+
+          <article class="photo-card">
+            <img src="img/churrasco-popa.webp" alt="Churrasco na popa da lancha" loading="lazy">
+            <span class="photo-tag">A Bordo</span>
+            <div class="photo-info">
+              <h3 class="t-shadow">Churrasco no Mar</h3>
+              <p class="t-shadow">Preparado pelo marinheiro na plataforma de popa.</p>
+            </div>
+          </article>
+
+          <article class="photo-card">
+            <img src="img/festa-caixa-daco.webp" alt="Passeio em Bombinhas, Itapema e BC" loading="lazy">
+            <span class="photo-tag">Costa Esmeralda</span>
+            <div class="photo-info">
+              <h3 class="t-shadow">Bombinhas, Itapema & BC</h3>
+              <p class="t-shadow">Roteiros privativos sob medida para sua turma.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- MONTE SEU PASSEIO -->
+    <section id="reservar">
+      <div class="wrap">
+        <div class="planner">
+          <span class="kicker">Orçamento rápido</span>
+          <h2>Monte seu passeio e chame <span class="serif">no WhatsApp.</span></h2>
+
+          <div class="p-step">
+            <span class="p-label">Embarcação</span>
+            <div class="chips" data-g="emb">
+              <button type="button" class="chip active" data-v="Lancha Privativa">Lancha Privativa</button>
+              <button type="button" class="chip" data-v="Iate Flybridge">Iate Flybridge</button>
+              <button type="button" class="chip" data-v="Combo Lancha + Jet Ski">Lancha + Jet Ski</button>
+              <button type="button" class="chip" data-v="Jet Ski Sea-Doo">Só Jet Ski</button>
+            </div>
+          </div>
+
+          <div class="p-step">
+            <span class="p-label">Roteiro</span>
+            <div class="chips" data-g="rot">
+              <button type="button" class="chip active" data-v="Caixa d'Aço + Ilha de Porto Belo">Caixa d'Aço + Ilha</button>
+              <button type="button" class="chip" data-v="Caixa d'Aço + Bombinhas">Bombinhas</button>
+              <button type="button" class="chip" data-v="Itapema + Balneário Camboriú">Itapema / BC</button>
+            </div>
+          </div>
+
+          <div style="margin-top:20px;">
+            <button type="button" id="sendWa" class="btn btn-wa" style="width:100%;">
+              Consultar Disponibilidade no WhatsApp
+            </button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- AVALIAÇÕES REAIS 5,0 ★ DO GOOGLE -->
-  <section id="avaliacoes">
-    <div class="container">
-      <span class="section-eyebrow">⭐ Nota 5,0 ★ no Google (20 Avaliações)</span>
-      <h2 class="section-title">Clientes 100% Satisfeitos no <em>Mar de SC</em></h2>
-
-      <div class="reviews-grid">
-        <article class="double-bezel">
-          <div class="double-bezel-inner review-card">
-            <div>
-              <div class="stars">★★★★★</div>
-              <p style="font-style:italic; margin-bottom:1rem;">"Experiência maravilhosa, atendimento top demais! Super recomendo a Yacht Paradise para quem quer curtir o Caixa d'Aço!"</p>
-            </div>
-            <div style="font-weight:700; font-size:0.9rem; color:var(--cyan);">Cliente Verificado · Google 5,0 ★</div>
+    <!-- AVALIAÇÕES CURTAS -->
+    <section>
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="kicker">5,0 ★ no Google</span>
+          <h2>Quem já navegou <span class="serif">recomenda.</span></h2>
+        </div>
+        <div class="rev-grid">
+          <div class="rev-card">
+            <div class="stars">★★★★★</div>
+            <p>"Experiência maravilhosa, atendimento top demais! Super recomendo!"</p>
+            <b>Cliente Google · 5,0 ★</b>
           </div>
-        </article>
-
-        <article class="double-bezel">
-          <div class="double-bezel-inner review-card">
-            <div>
-              <div class="stars">★★★★★</div>
-              <p style="font-style:italic; margin-bottom:1rem;">"Passeio top de jet, fui muito bem atendido pelo pessoal desde a chegada até o final. Recomendo de olhos fechados!"</p>
-            </div>
-            <div style="font-weight:700; font-size:0.9rem; color:var(--cyan);">Heitor Rodrigues · Google 5,0 ★</div>
+          <div class="rev-card">
+            <div class="stars">★★★★★</div>
+            <p>"Passeio top de jet, fui muito bem atendido pelo pessoal, recomendo!"</p>
+            <b>Heitor Rodrigues · 5,0 ★</b>
           </div>
-        </article>
-
-        <article class="double-bezel">
-          <div class="double-bezel-inner review-card">
-            <div>
-              <div class="stars">★★★★★</div>
-              <p style="font-style:italic; margin-bottom:1rem;">"Fui super bem atendido no ato da reserva e durante o aluguel também. Embarcações impecáveis e equipe nota 1000!"</p>
-            </div>
-            <div style="font-weight:700; font-size:0.9rem; color:var(--cyan);">Avaliação Verificada · Google 5,0 ★</div>
+          <div class="rev-card">
+            <div class="stars">★★★★★</div>
+            <p>"Fui bem atendido no ato da reserva e durante o aluguel também."</p>
+            <b>Cliente Google · 5,0 ★</b>
           </div>
-        </article>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    <div class="container" style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:2rem; align-items:center;">
-      <div>
-        <div class="brand" style="margin-bottom:0.5rem;">
-          <div class="brand-logo"><img src="img/favicon.svg" alt="Yacht Paradise" width="44" height="44"></div>
-          <div>
-            <span class="brand-name">Yacht Paradise</span>
-            <span class="brand-sub">Aluguel de Lanchas, Iates & Jet Ski</span>
-          </div>
-        </div>
-        <p style="font-size:0.86rem; color:var(--text-muted);">📍 Rua Antônio José de Aquino - Araçá, Porto Belo - SC · WhatsApp: (47) 99159-8787</p>
-      </div>
-      <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Yacht%20Paradise%20e%20quero%20reservar%20um%20passeio." target="_blank" rel="noopener" class="btn-primary">
-        Chamar no WhatsApp (47) 99159-8787
-      </a>
+    <div class="wrap">
+      <b>Yacht Paradise · Aluguel de Lanchas, Iates & Jet Ski</b><br>
+      Araçá, Porto Belo - SC · WhatsApp (47) 99159-8787
     </div>
   </footer>
 
-  <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Yacht%20Paradise%20e%20quero%20consultar%20disponibilidade." target="_blank" rel="noopener" class="float-wa">
-    💬 WhatsApp Yacht Paradise
+  <!-- Botão Redondo do WhatsApp no canto inferior direito -->
+  <a href="https://wa.me/5547991598787?text=Ol%C3%A1!%20Vi%20o%20site%20da%20Yacht%20Paradise%20e%20quero%20consultar%20disponibilidade." target="_blank" rel="noopener" class="wa-round" aria-label="Chamar no WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3Z"/></svg>
   </a>
 
   <script>
-    document.querySelectorAll(".chip-group").forEach(group => {
-      group.querySelectorAll(".choice-chip").forEach(chip => {
-        chip.addEventListener("click", () => {
-          group.querySelectorAll(".choice-chip").forEach(c => c.classList.remove("selected"));
-          chip.classList.add("selected");
-          document.getElementById("sumEmb").textContent = document.querySelector('[data-group="embarcacao"] .choice-chip.selected').dataset.val;
-          document.getElementById("sumRot").textContent = document.querySelector('[data-group="roteiro"] .choice-chip.selected').dataset.val;
+    // Esconde o card do topo quando arrasta pra baixo
+    const topNav = document.getElementById("topNav");
+    let lastY = window.scrollY;
+    window.addEventListener("scroll", () => {
+      const y = window.scrollY;
+      if (y > 35 && y > lastY) {
+        topNav.classList.add("nav-hidden");
+      } else if (y < 25) {
+        topNav.classList.remove("nav-hidden");
+      }
+      lastY = y;
+    }, { passive: true });
+
+    // Seletor rápido
+    document.querySelectorAll(".chips").forEach(g => {
+      g.querySelectorAll(".chip").forEach(btn => {
+        btn.addEventListener("click", () => {
+          g.querySelectorAll(".chip").forEach(c => c.classList.remove("active"));
+          btn.classList.add("active");
         });
       });
     });
 
-    document.getElementById("btnSendYp").addEventListener("click", () => {
-      const emb = document.getElementById("sumEmb").textContent;
-      const rot = document.getElementById("sumRot").textContent;
-      const data = document.getElementById("ypDate").value.trim() || "A combinar";
-      const pessoas = document.getElementById("ypGuests").value.trim() || "A confirmar";
-      const msg = `Olá! Vim pelo site da *Yacht Paradise* e gostaria de um orçamento:\n\n` +
-        `🛥️ *Interesse:* ${emb}\n` +
-        `🧭 *Roteiro:* ${rot}\n` +
-        `📅 *Data:* ${data}\n` +
-        `👥 *Pessoas:* ${pessoas}\n\n` +
-        `Podem me enviar as opções disponíveis?`;
+    document.getElementById("sendWa").addEventListener("click", () => {
+      const emb = document.querySelector('[data-g="emb"] .chip.active').dataset.v;
+      const rot = document.querySelector('[data-g="rot"] .chip.active').dataset.v;
+      const msg = `Olá! Vim pelo site da *Yacht Paradise* e quero consultar disponibilidade:\n\n🛥️ *Opção:* ${emb}\n📍 *Roteiro:* ${rot}`;
       window.open("https://wa.me/5547991598787?text=" + encodeURIComponent(msg), "_blank");
     });
   </script>
